@@ -1,0 +1,26 @@
+
+.sign-up {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.sign-up-box {
+    width: 100%;
+    height: 100%;
+    background-color: white !important;
+    border-radius: 1.5rem;
+    padding: 4rem 3rem
+}
+
+.title-sign-up {
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}

@@ -1,0 +1,96 @@
+footer {
+    background-color: #212121; 
+    color: #fff; 
+    padding: 50px 0; 
+    margin-top: 50px;
+}
+
+.footers-grid {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+.colum {
+    text-align: left;
+    width: 50%;
+    max-width: 50%;
+}
+
+.footer-name h1 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.footer-contacts {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.footer-question-mark {
+    font-weight: bold;
+}
+
+.footer-email a {
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social-media {
+    display: flex;
+    align-items: center; 
+}
+
+.footer-social-midia-img {
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    font-family: "Font Awesome 5 Brands Regular", sans-serif; 
+    font-weight: 400;
+    text-decoration: none;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.footer-right {
+    display: flex;
+}
+
+.colum a {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+
+.colum a:hover, .footer-email a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-all-rights-reserved {
+    color: rgba(243, 245, 248, .5);
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-all-rights-reserved span {
+    font-weight: bold; 
+}
